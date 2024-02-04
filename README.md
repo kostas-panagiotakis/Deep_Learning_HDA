@@ -2,7 +2,7 @@
 
 Speech recognition using CNN, autoencoder followed by SVM and Shallow Inception
 
-#### Get Started
+## Get Started
 
 To train the models with your signal data use the Train_Model_ notebooks.
 
@@ -16,24 +16,24 @@ To make your feature vectors run the: Calculate the feature vectors of words cod
 
 You are now ready to train the models with your words!
 
-#### Train_Model_CNN.ipynb
+## Train_Model_CNN.ipynb
 
 Trains a vanilla CNN on regular spectrograms, MFCC and full feature vectors. Applies dropout and L2 regularization to avoid overfitting. 
 Grid search for hyperparameter fine tuning. Save the model.
 
-#### Train_Model_Autoencoder.ipynb
+## Train_Model_Autoencoder.ipynb
 
 Encode the training set images to obtained compressed and smoothed denoised MFCC images for training an SVM. SVM straining. Save the model.
 
-#### Train_Model_Inception.ipynb
+## Train_Model_Inception.ipynb
 
 Train a shallow inception architectur on the word recognition task. Save the model.
 
-#### Inference.ipynb
+## Inference.ipynb
 
 Make inference using the best models on a simple .wav files with a sequence of words.
 
-#### Models & Utils
+## Models & Utils
 
 Folders hosting the weights of the models, and utils and model architecture functions respectively
 
